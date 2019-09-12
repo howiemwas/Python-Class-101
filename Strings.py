@@ -43,3 +43,13 @@ print(first_name.count('a'))
 gender = "MFMFMFMFMFMFMFMFMFMFMFMFMFMF"
 print(gender.count('F'))
 print(gender.count('M'))
+
+# assignment
+# list methods
+# form1.
+# know what each and every one of the methods does
+# especially append, extend, pop
+
+animalList = ['Cow','Donkey', 'Goat', 'Monkey', 'Zebra']
+print(animalList)
+print(animalList.append(1, 'Dog'))

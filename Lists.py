@@ -41,3 +41,70 @@ print(is_melvin)
 # form1.
 # know what each and every one of the methods does
 # especially append, extend, pop
+
+animalList = ['Cow','Donkey', 'Goat', 'Monkey', 'Cow', 'Zebra']
+print(animalList)
+
+# Append
+animalList.append("Dog")
+print(animalList)
+
+# Count
+print(animalList.count('Cow'))
+
+# Copy
+animalList.copy()
+print(animalList.copy())
+
+# Extend
+animalList2 = ['Rabbit', 'Chicken', 'Hyena']
+animalList.extend(animalList2)
+print(animalList)
+
+animalList.extend('Antelope')
+print(animalList)
+
+# Index
+print(animalList.index('Rabbit'))
+
+# Insert
+animalList.insert(1, 'Mongoose')
+print(animalList)
+
+
+mongooseIndex = animalList.index('Mongoose')
+animalList.insert(mongooseIndex, 'Dragon')
+print(animalList)
+
+dragonIndex = animalList.index('Dragon')
+animalList.insert(dragonIndex + 3, 'Sparrow')
+print(animalList)
+
+
+# Pop  - removes indexed value from the list, if no index given then it removes the last item on the list
+print(animalList.pop(4))
+print(animalList)
+animalList.pop()
+print(animalList)
+
+
+# Remove - removes an item from the list
+animalList.remove('Dragon')
+print(animalList)
+
+# Reverse - make new list that starts from the back
+animalList.reverse()
+print(animalList)
+
+
+# Delete function deletes the whole dictionary or list
+# e.g. del animalList
+# del animalList
+# print(animalList)
+
+# Sort
+
+
+
+
+# TUPLE
